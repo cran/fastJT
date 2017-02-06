@@ -81,13 +81,13 @@ fastJT.select <- function(Y, X, cvMesh = NULL, kFold = 10L, selCrit = NULL,  out
         res <- list(fastJT(Y[-subRmIds[[1]],], X[-subRmIds[[1]],],
                            outTopN, numThreads, standardized = TRUE))
         pvalue <- list(pvalues(res[[i]]))
-        hits <- list(res[[i]]$fID)
+        hits <- list(res[[i]]$XIDs)
         res[[i]] <- res[[i]]$J
       }else{
         res[[i]] <- fastJT(Y[-subRmIds[[i]],], X[-subRmIds[[i]],],
                            outTopN, numThreads, standardized = TRUE)
         pvalue[[i]] <- pvalues(res[[i]])
-        hits[[i]] <- res[[i]]$fID
+        hits[[i]] <- res[[i]]$XIDs
         res[[i]] <- res[[i]]$J      
       } 
     }

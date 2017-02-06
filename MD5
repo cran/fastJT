@@ -1,13 +1,14 @@
-54e5e6fc804b64aa5c34786d2c44a6de *DESCRIPTION
+1ae2eeeefcb6e3032dad9ba07ce89dbc *DESCRIPTION
 db637329aef24aa0675c0ed0212437de *NAMESPACE
+bf00151d6302692d261442d704a58599 *NEWS
 e5eff2766af94a7d333223445ed84815 *R/fastJT.R
-db0726afd897aa7b712d02ecc5ac9196 *R/fastJT.select.R
+6bf13561ada2c9480cc67778fa7ecbab *R/fastJT.select.R
 b8706807fc24e39e10fcbff3d35dde45 *R/pvalues.R
 cba06630ac4d19b664d5bbb95f4bffb0 *R/summary.fastJT.R
 ef590bef77635a708adb98f1aa26cde2 *build/vignette.rds
 ef6cfcda368f3fc52bcef699934a846a *inst/doc/fastJT.R
-8f650800c8b32c9ff87716f755bdd7da *inst/doc/fastJT.Rnw
-c6997769ed81b25281466190d9476983 *inst/doc/fastJT.pdf
+9acb753ed48293c2d902aca3534cb9bd *inst/doc/fastJT.Rnw
+38d8b40518ab83801adf9f99b70f7f3e *inst/doc/fastJT.pdf
 a0b943e92c1400fecde795577862f60b *man/fastJT-package.Rd
 b049eefe63df07854996305841011471 *man/fastJT.Rd
 dc147246bc1fca9ae3acb152edd1ca01 *man/fastJT.select.Rd
@@ -22,4 +23,4 @@ a5e1c4e8f9376993f875345a86bd39eb *src/RcppExports.cpp
 f8d252ae9b4e2b4e2afbdb24265b0178 *src/fastJTmp.cpp
 e23d0945cfffee83b7ba754282ec87cc *src/pairCompare.h
 75a4c4b43ccb5257ebd380f7097159e2 *src/pairCompareMP.h
-8f650800c8b32c9ff87716f755bdd7da *vignettes/fastJT.Rnw
+9acb753ed48293c2d902aca3534cb9bd *vignettes/fastJT.Rnw
