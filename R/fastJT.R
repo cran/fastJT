@@ -1,4 +1,10 @@
 fastJT <- function(Y, X, outTopN = 15L, numThreads = 1L, standardized = TRUE) {
+	# preprocessing for handle the NA and NaN
+	Y[which(is.na(Y))]=NA
+	X[which(is.na(X))]=NA
+	Y[which(is.nan(Y))]=NA
+	X[which(is.nan(X))]=NA
+
 	markerNames <- colnames(Y)
 	SNPNames <- colnames(X)
 	
