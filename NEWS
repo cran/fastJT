@@ -1,3 +1,8 @@
+fastJT v1.0.5 (Release data: 2019-07-18)
+=============
+* Add citation.
+
+
 fastJT v1.0.4 (Release data: 2017-05-10)
 =============
 * Fix bugs for compile vignettes files using texlive 2017.
