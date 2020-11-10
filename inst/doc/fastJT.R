@@ -1,8 +1,8 @@
-## ----setup1, include=FALSE-----------------------------------------------
+## ----setup1, include=FALSE----------------------------------------------------
 require(knitr)
 
 ## ----setup2, include=FALSE----------------------------------------------------
-options(width=80)  # make the printing fit on the page
+old_ops<-options(width=80)  # make the printing fit on the page
 set.seed(1121)     # make the results repeatable
 stdt<-date()
 
@@ -113,4 +113,6 @@ toLatex(sessionInfo(), locale=FALSE)
 ## ----times, echo=FALSE, include=TRUE------------------------------------------
 print(paste("Start Time",stdt))
 print(paste("End Time  ",date()))
+## reset options
+options(old_ops)
 

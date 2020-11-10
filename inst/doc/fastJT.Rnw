@@ -28,7 +28,7 @@ require(knitr)
 @
 
 <<setup2, include=FALSE>>=
-options(width=80)  # make the printing fit on the page
+old_ops<-options(width=80)  # make the printing fit on the page
 set.seed(1121)     # make the results repeatable
 stdt<-date()
 @
@@ -36,7 +36,7 @@ stdt<-date()
 \begin{frame}
 	\title{\pkgname}
 	\subtitle{Efficient Jonckheere-Terpstra Test Statistics for Robust Machine Learning and Genome-Wide Association Studies}
-	\date{2019-07-18}
+	\date{2020-11-04}
 	\titlepage
 \end{frame}
 
@@ -281,6 +281,8 @@ toLatex(sessionInfo(), locale=FALSE)
 <<times, echo=FALSE, include=TRUE>>=
 print(paste("Start Time",stdt))
 print(paste("End Time  ",date()))
+## reset options
+options(old_ops)
 @ 
 \end{frame}
 

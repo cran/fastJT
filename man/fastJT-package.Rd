@@ -2,7 +2,7 @@
 \alias{fastJT-package}
 \alias{fastJT-package}
 \docType{package}
-\title{Efficient Jonckheere-Terpstra Test Statistics for Robust Machine Learning and Genome-wide Association Studies
+\title{Efficient Jonckheere-Terpstra Test Statistics
 }
 \description{This \code{Rcpp}-based package implements highly efficient functions for the calculation of the Jonkheere-Terpstra statistic. It can be used for a variety of applications, including feature selection in machine learning problems, or to conduct genome-wide association studies (GWAS) with multiple quantitative phenotypes. The code leverages \code{OpenMP} directives for multi-core computing to reduce overall processing time.
 }
@@ -10,8 +10,8 @@
 \tabular{ll}{
 Package: \tab fastJT\cr
 Type: \tab Package\cr
-Version: \tab 1.0.5\cr
-Date: \tab 2019-07-18\cr
+Version: \tab 1.0.6\cr
+Date: \tab 2020-11-04\cr
 License: \tab GPL-3\cr
 }
 Please see the example function calls below, or refer to the individual function documentation or the included vignette for more information. The package vignette serves as a tutorial for using this package. The technical details are provided in the reference cited below. Specifically, the calculation of the standardized test statistics employs the null variance equation as defined by Hollander and Wolfe (1999, eq. 6.19) to account for ties in the data.
@@ -20,7 +20,7 @@ Please see the example function calls below, or refer to the individual function
 \author{
 Jiaxing Lin, Alexander Sibley, Ivo Shterev, and Kouros Owzar
 
-Maintainer: Jiaxing Lin <jiaxing.lin@duke.edu>
+Maintainer: Alexander Sibley <dcibioinformatics@duke.edu>
 }
 
 \references{
